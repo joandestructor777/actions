@@ -4,7 +4,7 @@ on: [push]
 
 jobs:
     saludo:
-        runs-on: ubuntu-latest,
+        runs-on: ubuntu-latest
         steps:
             - name: Saludo de maquina
               run: echo 'Hola mundito precioso'
