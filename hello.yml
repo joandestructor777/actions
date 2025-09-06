@@ -1,0 +1,10 @@
+name: Hola Mundo
+
+on: [push]   # Se ejecuta cuando haces un push al repo
+
+jobs:
+  saludo:
+    runs-on: ubuntu-latest   # GitHub te da una máquina Linux para ejecutar
+    steps:
+      - name: Mostrar saludo
+        run: echo "¡Hola mundo desde GitHub Actions!"
